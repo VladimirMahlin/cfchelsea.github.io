@@ -1,0 +1,21 @@
+        body {
+            background-image: url("mainbackground.jpg");
+            background-size: cover;
+        }
+        h1 {
+            background: white;
+            padding: 2px;
+            opacity: 0.6;
+        }
+        a:link, a:visited {
+            background-color: white;
+            color: black;
+            padding: 14px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            opacity: 0.8;
+        }
+        a:hover, a:active {
+            background-color: cornflowerblue;
+        }

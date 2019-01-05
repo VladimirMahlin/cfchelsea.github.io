@@ -1,0 +1,119 @@
+.parent {
+            width: 60%;
+            position: relative;
+            margin-left: 20%;
+        }
+
+        .image {
+            width: 100%;
+        }
+
+        .text {
+            position: absolute;
+            top: 20px;
+            right 20px;
+            left: 20px;
+            bottom: 20px;
+            color: white;
+        }
+
+        .topbutton {
+            width: 100px;
+            border: 2px solid #ccc;
+            background: #f7f7f7;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 50px;
+            right: 50px;
+            cursor: pointer;
+            color: #333;
+            font-family: verdana;
+            font-size: 12px;
+            border-radius: 5px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            overflow: hidden;
+            background-image: url("chelsea2.jpg");
+            background-repeat: no-repeat;
+            background-position: right top;
+            background-color: #0D417B;
+        }
+
+        li {
+            float: left;
+        }
+
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+                li a:hover:not(.active) {
+                    background-color: white;
+                    color: #0D417B;
+                    margin-top: 1px;
+                }
+
+        .active {
+            background-color: white;
+            color: #0D417B;
+            border: solid;
+        }
+
+        ul1 {
+            list-style-type: none;
+            padding: 0;
+            width: 10%;
+            background-color: #0D417B;
+            position: fixed;
+            height: 19,5%;
+            overflow: auto;
+        }
+
+        ul2 {
+            list-style-type: none;
+            padding: 0;
+            width: 15%;
+            background-color: #0D417B;
+            height: 19,5%;
+            overflow: auto;
+        }
+
+        li1 a {
+            display: block;
+            color: white;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+
+            li1 a.active {
+                background-color: white;
+                color: #0D417B;
+            }
+
+            li1 a:hover:not(.active) {
+                background-color: white;
+                color: #0D417B;
+                border: solid;
+                border-color: #0D417B;
+            }
+table, td, th {
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 68%;
+            margin-left:15%;
+        }
+
+        th, td {
+            padding: 15px;
